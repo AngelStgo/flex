@@ -1,0 +1,63 @@
+.container {  
+   /* here is for the behave */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+
+
+ .boxes {
+   /* here is for the aspect */
+    border: 3px solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+ }
+
+
+ h1{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+    color: rgba(0, 0, 0, 0.96);
+   text-shadow: 5px 3px 6px rgb(110, 110, 110);
+}
+
+
+ #box1 { background-color: green; 
+   /* height: 500px; */
+   border: 0px;
+   border-radius: 100%;
+   background: radial-gradient(rgba(0, 128, 0, 0.523), rgb(0, 98, 0));
+    box-shadow: 10px 8px 6px rgba(0, 49, 21, 0.882);
+    }
+ #box2 { background-color: yellow;
+   border-radius: 100%;
+   border: 0px;
+    background: radial-gradient(rgba(255, 255, 0, 0.488),rgb(141, 141, 2));
+    box-shadow: 8px 15px 15px rgba(129, 121, 12, 0.929);
+ }
+ #box3 { background-color: pink;
+   /* height: 500px; */
+   border: px;
+   border-radius: 100%;
+    box-shadow: 10px 8px 16px rgba(137, 57, 57, 0.9);
+ }
+ #box4 { background-color: blue;
+    box-shadow: 10px 8px 6px rgba(35, 37, 110, 0.937);
+ }
+ #box5 { background-color: red;
+   /* height: 500px; */
+    box-shadow: 10px 8px 6px rgba(98, 0, 0, 0.876);
+ }
+ #box6 { background-color: orange;
+    box-shadow: 10px 8px 6px rgba(130, 55, 2, 0.904);
+ }
+ #box7 { background-color:beige;
+   /* height: 500px; */
+    box-shadow: 10px 8px 6px rgba(146, 110, 73, 0.939);
+ }
+ #box8 { background-color: lightgrey;
+    box-shadow: 10px 8px 6px rgb(128, 128, 128);
+ }
